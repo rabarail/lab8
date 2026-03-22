@@ -27,4 +27,5 @@ while True:
     print("4. CalculateRectangle Perimeter")
     print("5. Exit")
     
-    
+choice = input("Enter your choice (1-5): ")
+
