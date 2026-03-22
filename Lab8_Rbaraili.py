@@ -16,3 +16,15 @@ import rectangle
 # By using aliases (import circle as c and import rectangle as r),
 # we can explicitly call c.area() for circles and r.area() for rectangles,
 # allowing both functions to coexist in the same program without conflict.
+
+
+while True:
+    print("Geometry Calculator")
+    print("-------------------")
+    print("1. Calculate Circle Area")
+    print("2. Calculate Circle Circumference")
+    print("3. Calculate Rectangle Area")
+    print("4. CalculateRectangle Perimeter")
+    print("5. Exit")
+    
+    
