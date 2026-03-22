@@ -5,3 +5,6 @@ The purpose of the program: To calculate the area and perimeter/circumference of
 Any info about starter code:none
 Date: March 22, 2026
 """
+import circle
+import rectangle
+
