@@ -5,8 +5,8 @@ The purpose of the program: To calculate the area and perimeter/circumference of
 Any info about starter code:none
 Date: March 22, 2026
 """
-import circle
-import rectangle
+import circle as c
+import rectangle as r
 
 # WHY ALIASES ARE NECESSARY:
 # Both circle.py and rectangle.py define a function named area().
@@ -24,8 +24,22 @@ while True:
     print("1. Calculate Circle Area")
     print("2. Calculate Circle Circumference")
     print("3. Calculate Rectangle Area")
-    print("4. CalculateRectangle Perimeter")
+    print("4. Calculate Rectangle Perimeter")
     print("5. Exit")
     
 choice = input("Enter your choice (1-5): ")
+
+if choice == '1':
+    
+elif choice == '2':
+    
+elif choice == '3':
+
+elif choice == '4':
+    
+elif choice == '5':
+    print("Exiting the program. Goodbye!")
+else:
+    print("Invalid choice")
+    
 
