@@ -31,20 +31,21 @@ while True:
 
     if choice == '1':
         radius = float(input("Enter the radius of the circle: "))
-        print(f"The area of the circle is: {c.area(radius)}")
+        print(f"The area of the circle is: {c.area(radius):.3f}")
+
     elif choice == '2':
         radius = float(input("Enter the radius of the circle: "))
-        print(f"The circumference of the circle is: {c.circumference(radius)}")
+        print(f"The circumference of the circle is: {c.circumference(radius):.2f}")
 
     elif choice == '3':
         length = float(input("Enter the length of the rectangle: "))
         width = float(input("Enter the width of the rectangle: "))
-        print(f"The area of the rectangle is: {r.area(length, width)}")
+        print(f"The area of the rectangle is: {r.area(length, width):.2f}")
 
     elif choice == '4':
         length = float(input("Enter the length of the rectangle: "))
         width = float(input("Enter the width of the rectangle: "))
-        print(f"The perimeter of the rectangle is: {r.perimeter(length, width)}")
+        print(f"The perimeter of the rectangle is: {r.perimeter(length, width):.2f}")
 
     elif choice == '5':
         print("Goodbye!")
