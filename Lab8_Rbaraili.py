@@ -27,19 +27,27 @@ while True:
     print("4. Calculate Rectangle Perimeter")
     print("5. Exit")
     
-choice = input("Enter your choice (1-5): ")
+    choice = input("Enter your choice (1-5): ")
 
-if choice == '1':
-    
-elif choice == '2':
-    
-elif choice == '3':
+    if choice == '1':
+        radius = float(input("Enter the radius of the circle: "))
+        print(f"The area of the circle is: {c.area(radius)}")
+    elif choice == '2':
+        radius = float(input("Enter the radius of the circle: "))
+        print(f"The circumference of the circle is: {c.circumference(radius)}")
 
-elif choice == '4':
-    
-elif choice == '5':
-    print("Exiting the program. Goodbye!")
-else:
-    print("Invalid choice")
-    
+    elif choice == '3':
+        length = float(input("Enter the length of the rectangle: "))
+        width = float(input("Enter the width of the rectangle: "))
+        print(f"The area of the rectangle is: {r.area(length, width)}")
 
+    elif choice == '4':
+        length = float(input("Enter the length of the rectangle: "))
+        width = float(input("Enter the width of the rectangle: "))
+        print(f"The perimeter of the rectangle is: {r.perimeter(length, width)}")
+
+    elif choice == '5':
+        print("Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please try again.")
